@@ -1,0 +1,18 @@
+:root {
+    font-size: 40px; /*Defina uma unidade fixa no root*/
+    color: #429ebd;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    font-size: 80px; /*Note que este valor será ignorado*/
+}
+
+.rem {
+    font-size: 1rem; /*Será igual ao valor do root*/
+}
+.em {
+    font-size: 1em; /*Será igual ao valor do Rem*/
+}
